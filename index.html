@@ -50,7 +50,7 @@
         <div id="lead-content">
             <h1>Arnaud Barraquand</h1>
             <h2>SIGINT specialist</h2>
-            <a href="data/cv_en.pdf" class="btn-rounded-white">Download Resume</a>
+            <a href="#contact" class="btn-rounded-white">Ask for a Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -74,10 +74,7 @@
                 <div class="col-md-8">
                     <p>
                         I am a <a href="https://en.wikipedia.org/wiki/Signals_intelligence">SIGINT/COMINT</a> specialist, with over 10 years of experience in French military intelligence and the defence industry.<br> 
-                        In 2022, after <a href="#projects">several data science academic projects</a>, I worked with a small team on modeling the evolution of protective forests in Switzerland, using a combination of satellite imagery (Landsat), meteorological data (Daymet) and a dataset provided by the Swiss <a href="https://www.lfi.ch/">National Forest Inventory</a>.<br>
-                        I am currently working on several personal projects : <br>
-                        - Telecommunications : SDR plugins<br>
-                        - OSINT : Investigations and research, focusing on current conflicts<br>
+                        <a href="#projects">Data science projects</a> and <a href="#projects">SDR applications</a> in my free time.<br>
                     </p>
                 </div>
             </div>
@@ -92,20 +89,11 @@
                 <h3>Ineo Defense</h3>
                 <h4>COMINT Integration & Validation Engineer</h4>
                 <p>
-                - Participation in the definition of the test strategy, integration & validation plans <br>
-                - Carrying out test campaigns on platforms, bug reporting & fixing <br>
-                - Deployment of solution, on-site training & support <br>
-                - Technical expertise, advising project management <br>
-                </p>
-            </div>
-
-            <div data-date="January 2022 – April 2022">
-                <h3>IMED Conseil</h3>
-                <h4>Computer Systems Administrator</h4>
-                <p>
-                - IT Support on medical software & office networks<br>
-                - Database migration, deployment of servers & multiple computers<br>
-                - Development & integration of company website<br>
+                - SIGINT technical expertise, advising project management <br>
+                - Definition of the test strategy, integration & validation plans <br>
+                - Test campaigns on platforms, bug reporting & fixing <br>
+                - On-site training & support <br>
+                - Prototyping & development of new features <br>
                 </p>
             </div>
 
@@ -190,6 +178,32 @@
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
+        <h2 class="heading">SDR Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/sdr1.jpg" height="225" width="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>SigAnTo</h3>
+                        <p>
+                            A GUI for Signal Analysis : Measurements and analysis on signal recordings from SDRs:<br>
+                            - Spectrogram & various displays for frequency, phase & time domain analysis<br>
+                            - Estimation of modulation parameters<br>
+                        </p>
+                        <a href="https://github.com/Ukratic/Siganto">GitHub Repo</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="projects" class="background-alt">
         <h2 class="heading">Data Science Projects</h2>
         <div class="container">
             <div class="row">
@@ -202,7 +216,7 @@
                         <h3>Protective Forests</h3>
                         <p>
                             Analysis of the state of protective forests in Switzerland and main factors of growth:<br>
-                            Meteorological data from <a href="https://www.wsl.ch/">WSL</a>, Google Earth Engine satellite imaging and field data from the <a href="https://www.lfi.ch/">National Forest Inventory</a>
+                            Meteorological data from <a href="https://www.wsl.ch/">WSL</a>, Google Earth Engine satellite imaging and field data from the <a href="https://www.lfi.ch/">National Forest Inventory</a>.
                         </p>
                         <a href="https://github.com/Ukratic/Protection-Forests">GitHub Repo</a> / <a href="https://ukratic-protection-forests-dashboard-home-fsgk56.streamlit.app/">Dashboard</a> / <a href="https://public.tableau.com/app/profile/arnaud.barraquand/viz/ProtectionforestsinSwitzerlandLFI4/Dashboard">Tableau</a>
                     </div>
@@ -257,24 +271,27 @@
         <h2 class="heading">Skills & Tools</h2>
         <ul>
             <li><b>Programming & scripting:</b> Python, R, SQL, Powershell, Bash</li>
-            <li><b>OSINT:</b> Maltego, Spiderfoot, Shodan, Google Dorks, reverse image search...</li>
-            <li><b>GIS:</b> QGIS, Global Mapper, Google Earth, Geopandas, Satellite Imagery</li>
-            <li><b>Statistics:</b> BA in Applied Maths</li>
+
+            <li><b><i>IT & Telecom:</i></b><br>
+                <b>SIGINT:</b> COMINT, ELINT, EW<br>
+                <b>SDR:</b> DSP, DF<br>
+                <b>Networks:</b> Radio, GSM, LTE, TCP/IP, OSI model<br>
+                <b>OS:</b> Windows & Active Directory, Linux<br>
+                <b>Containers & VMs:</b> Docker, Kubernetes, VMware, VirtualBox<br>
+                <b>Cloud storage & computing:</b> AWS , GCP, Oracle<br>
+                <b>Cyber:</b> Kill chain, Wireshark, Kali Linux, nmap, metasploit</li>
+            <li><b>OSINT:</b> Maltego, Spiderfoot, Shodan, Google Dorks</li>
+            <li><b>GIS:</b> QGIS, Global Mapper, Google Earth, Geopandas, Satellite Imagery</li>  
             <li><b><i>Data Science & Analytics:</i></b><br>
                 <b>Data processing:</b> Pandas, Numpy, Scikit-learn<br>
                 <b>Web scraping:</b> BeautifulSoup, Scrapy<br>
                 <b>Machine Learning:</b> Linear & logistic regression, SVM, Naive Bayes, Decision Trees, Random Forests, K-Means, DBSCAN, Boosting<br>
                 <b>Dimensionality reduction:</b> PCA, LDA<br> 
                 <b>Deep learning:</b> Tensorflow, Pytorch<br>
-                <b>Data visualization & BI:</b> Matplotlib, Seaborn, Plotly, ggplot2, Gephi, Power BI, Tableau<br>
-                <li><b>Web apps & dashboards:</b> HTML, CSS, Streamlit, Dash, FastAPI, Heroku</li>                
-                <li><b><i>IT & Telecom:</i></b><br>
-                <b>Networks:</b> Radio, GSM, TCP/IP, OSI model<br>
-                <b>OS:</b> Windows & Active Directory, Linux<br>
-                <b>Containers & VMs:</b> Docker, Kubernetes, VMware, VirtualBox<br>
-                <b>Cloud storage & computing:</b> AWS (S3,RDS,Beanstalk...), GCP (Storage, BigQuery, Compute Engine...)<br>
-                <b>Cyber:</b> Kill chain, Wireshark, Kali Linux, nmap, metasploit</li>
-            <li><b>Office:</b> Microsoft Office, Google Workspace</li>
+                <b>Data visualization & BI:</b> Matplotlib, Seaborn, Plotly, ggplot2, Tableau<br>
+            <li><b>Statistics:</b> BA in Applied Maths</li>
+            <li><b>Web apps & dashboards:</b> HTML, CSS, Streamlit, Dash, FastAPI</li> 
+
         </ul>
     </div>
     <!-- End #skills -->
